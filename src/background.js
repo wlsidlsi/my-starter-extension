@@ -4,5 +4,5 @@ chrome.runtime.onInstalled.addListener((details) => {
 });
 
 chrome.action.onClicked.addListener((tab) => {
-  chrome.tabs.create({ url: "index.html" });
+  chrome.tabs.create({ url: "html/index.html" });
 });

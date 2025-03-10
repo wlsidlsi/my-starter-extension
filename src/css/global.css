@@ -1,0 +1,54 @@
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    .title {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+  
+    .intro {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      color: #555;
+    }
+  
+    .subtitle {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      color: #444;
+    }
+  
+    .item-list {
+      padding-left: 1.5rem;
+  
+      li {
+        margin-bottom: 0.5rem;
+        color: #666;
+  
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+  
+    .image {
+      margin-top: 1rem;
+      border-radius: 8px;
+    }
+  
+    .link {
+      display: inline-block;
+      margin-top: 1.5rem;
+      color: #007BFF;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+        color: #0056b3;
+      }
+    }
+  }

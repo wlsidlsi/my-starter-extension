@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A starter vanilla js chrome extension.",
   "scripts": {
+    "build:css": "postcss src/css/global.css -o dist/css/global.css",
+    "watch:css": "postcss src/css/global.css -o dist/css/global.css --watch",
+    "build": "npm run build:css && npm run copy-assets",
+    "copy-assets": "copyfiles -u 1 'src//**/*.json'  'src/html/**/*' 'src//**/*.js' dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,7 +18,13 @@
     "type": "git",
     "url": "https://github.com/yourusername/my-starter-extension.git"
   },
-
   "author": "Chris Kane",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "copyfiles": "^2.4.1",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.0",
+    "postcss-nested": "^7.0.2"
+  }
 }
