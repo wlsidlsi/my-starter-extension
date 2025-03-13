@@ -1,0 +1,18 @@
+{
+  "name": "my-starter-extension",
+  "version": "1.0.0",
+  "description": "A starter vanilla js chrome extension.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "starter"
+  ],
+  "git": {
+    "url": "https://github.com/yourusername/my-starter-extension.git"
+  },
+  "author": "Chris Kane",
+  "license": "MIT"
+}
