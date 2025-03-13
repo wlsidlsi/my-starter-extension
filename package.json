@@ -10,9 +10,11 @@
     "extension",
     "starter"
   ],
-  "git": {
+  "repository": {
+    "type": "git",
     "url": "https://github.com/yourusername/my-starter-extension.git"
   },
+
   "author": "Chris Kane",
   "license": "MIT"
 }
